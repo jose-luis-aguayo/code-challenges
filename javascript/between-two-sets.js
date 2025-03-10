@@ -25,34 +25,20 @@ let index
 
     }
 
-    
-    
     for(let k = b.length - 1; k >= 0; k--){
-        
         
         for(let l = 0; l < numbers.length; l++) {
             
             //for each number in b i will check against numbers array
             if(b[k]%numbers[l] != 0) { 
-              
               index = numbers.indexOf(numbers[l])
               if(index > -1) {
                 numbers.splice(index, 1)
               }
-              
             } 
-
-
         }
-
-        
-        
     }
-
-    
-
     return numbers.length
-
 }
 
 console.log(getTotalX(a, b))

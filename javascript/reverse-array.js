@@ -16,4 +16,4 @@ function reverseArray2(a) {
     return a.reverse()
 }
 
-console.log(reverseArray2([1, 2, 3]))
+console.log(reverseArray([1, 2, 3]))
