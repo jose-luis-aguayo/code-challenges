@@ -1,0 +1,12 @@
+{
+  "name": "js-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hackerrank.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
