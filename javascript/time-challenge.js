@@ -14,7 +14,16 @@ function timeConversion(time) {
     
     if ( format == 'P') {
 
+        
+        
         militaryHours = 12 + (+hours)
+       
+        if(militaryHours == 24){
+            militaryHours = 12
+        }
+
+
+            
         console.log(`${militaryHours}:${time.slice(3, 8)}`)
 
     } else if ( format == 'A') {
@@ -29,4 +38,6 @@ function timeConversion(time) {
 
 }
 
-timeConversion('12:05:45PM')
+//timeConversion('12:45:54PM')
+
+timeConversion('07:05:45PM')
